@@ -121,7 +121,7 @@ const Lottery = () => {
 
     return (
         <div className="lottery-container">
-            <h2>抽奖合约</h2>
+            <h2>抽奖游戏</h2>
             <p>
                 该合约由管理员 {manager} 管理，目前共有 {players.length} 位玩家参与，
                 奖池金额为 {web3 && web3.utils.fromWei(balance, "ether")} ETH。
